@@ -1,0 +1,16 @@
+/* 
+  BaseStrings.strings
+  Gallery
+
+  Created by Дмитрий Фетюхин on 07.04.2022.
+  
+*/
+
+//MARK: - Auth
+"signUp" = "Sign Up";
+"signIn" = "Sign In";
+
+//MARK: - WelcomeScreen
+"welcomeTitle" = "Welcome!";
+"welcomeSignUp" = "Create an account";
+"welcomeSignIn" = "I already have an account";

@@ -1,8 +1,8 @@
 //
-//  RootConfigurator.swift
+//  DetailConfigurator.swift
 //  Gallery
 //
-//  Created by Дмитрий Фетюхин on 15.04.2022.
+//  Created by Дмитрий Фетюхин on 26.04.2022.
 //  Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
 //
 //  Cheeezcake Template Inc.
@@ -10,16 +10,16 @@
 
 import UIKit
 
-enum RootConfigurator {
+enum DetailConfigurator {
     
-    static func configure(view: RootViewController) {
-        let router = RootRouter(view)
-        let presenter = RootPresenterImp(view, router)
+    static func configure(view: DetailViewController) {
+        let router = DetailRouter(view)
+        let presenter = DetailPresenterImp(view, router)
         view.presenter = presenter
     }
 
     static func open(navigationController: UINavigationController) {
-        guard let view = R.storyboard.RootStoryboard.instantiateInitialViewController() else {
+        guard let view = R.storyboard.DetailStoryboard.instantiateInitialViewController() else {
             return
         }
         Self.configure(view: view)

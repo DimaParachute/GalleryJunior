@@ -1,8 +1,8 @@
 //
-//  RootViewController.swift
+//  DetailViewController.swift
 //  Gallery
 //
-//  Created by Дмитрий Фетюхин on 15.04.2022.
+//  Created by Дмитрий Фетюхин on 26.04.2022.
 //  Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
 //
 //  Cheeezcake Template Inc.
@@ -10,9 +10,9 @@
 
 import UIKit
 
-class RootViewController: UIViewController {
+class DetailViewController: UIViewController {
     
-    internal var presenter: RootPresenter?
+    internal var presenter: DetailPresenter?
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +23,6 @@ class RootViewController: UIViewController {
     }
 }
 
-extension RootViewController: RootView {
+extension DetailViewController: DetailView {
     
 }

@@ -1,8 +1,8 @@
 //
-//  RootRouter.swift
+//  DetailRouter.swift
 //  Gallery
 //
-//  Created by Дмитрий Фетюхин on 15.04.2022.
+//  Created by Дмитрий Фетюхин on 26.04.2022.
 //  Copyright (c) 2022 ___ORGANIZATIONNAME___. All rights reserved.
 //
 //  Cheeezcake Template Inc.
@@ -10,11 +10,11 @@
 
 import UIKit
 
-class RootRouter: BaseRouter {
+class DetailRouter: BaseRouter {
     
     weak var view: UIViewController?
     
-    init(_ view: RootViewController) {
+    init(_ view: DetailViewController) {
         self.view = view
     }
     
